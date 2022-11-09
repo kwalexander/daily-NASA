@@ -24,6 +24,7 @@ Favorite.init(
             allowNull: false
         },
 
+        // this is the foreign key
         user_id: {
             type: DataTypes.INTEGER,
             references: {
