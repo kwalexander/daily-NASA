@@ -1,8 +1,8 @@
 const sequelize = require('../config/connection');
-const { User, Favorites } = require('../models');
+const { User, Favorite } = require('../models');
 
 const userSeedData = require('./userSeedData.json');
-const favoriteSeedData = require('./favoritesSeedData.json');
+const favoriteSeedData = require('./favoriteSeedData.json');
 
 const seedDatabase = async () => {
     // will drop the DB and restart/create the DB
@@ -11,6 +11,12 @@ const seedDatabase = async () => {
     // creates the users with the user seed data
     const users = await User.bulkCreate(userSeedData, {
         // used for hashing for each user
+        individualHooks: true,
+        returning: true,
+    });
+
+    const favorite = await Favorite.bulkCreate(favoriteSeedData, {
+        // used for hashing for each favorite
         individualHooks: true,
         returning: true,
     });
