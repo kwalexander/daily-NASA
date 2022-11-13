@@ -29,6 +29,7 @@ User.init(
     }
   },
   {
+    // hashing the password to save the encrypted version for security
     hooks: {
       beforeCreate: async newUser => {
         try {
