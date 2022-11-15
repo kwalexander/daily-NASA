@@ -1,0 +1,104 @@
+/* screen - frame */
+
+.frame {
+  align-items: flex-start;
+  background-color: var(--white);
+  border: 0px none;
+  display: flex;
+  height: 877px;
+  padding: 138px 152px;
+  width: 1745px;
+}
+
+.frame .feature-quote-right {
+  align-items: flex-start;
+  background-color: var(--concrete);
+  border: 0px none;
+  display: flex;
+  gap: 72px;
+  height: 600px;
+  margin-top: 1px;
+  min-width: 1440px;
+  padding: 157px 174px;
+}
+
+.frame .overlap-group {
+  height: 286px;
+  position: relative;
+  width: 491px;
+}
+
+.frame .rectangle {
+  background-color: var(--white);
+  border: 1px none;
+  height: 233px;
+  left: 91px;
+  position: absolute;
+  top: 0;
+  width: 400px;
+}
+
+.frame .rectangle-1 {
+  background-color: var(--black);
+  border: 1px none;
+  height: 233px;
+  left: 0;
+  position: absolute;
+  top: 53px;
+  width: 400px;
+}
+
+.frame .content {
+  align-items: flex-start;
+  align-self: center;
+  display: flex;
+  flex-direction: column;
+  min-height: 258px;
+  width: 478px;
+}
+
+.frame .your-best-value-proposition {
+  letter-spacing: 0;
+  line-height: normal;
+  width: 422px;
+}
+
+.frame .lorem-ipsum-dolor-si {
+  letter-spacing: 0;
+  line-height: 120px;
+  margin-bottom: -44px;
+  margin-top: 24px;
+  white-space: nowrap;
+}
+
+.frame .customer-quote {
+  letter-spacing: 0;
+  line-height: 120px;
+  margin-bottom: -80px;
+  margin-top: 48px;
+  white-space: nowrap;
+}
+
+.frame .flex-row {
+  align-items: center;
+  display: flex;
+  gap: 8px;
+  margin-top: 8px;
+  min-width: 213px;
+}
+
+.frame .ellipse {
+  background-color: var(--black);
+  border: 1px none;
+  border-radius: 12px;
+  height: 24px;
+  width: 24px;
+}
+
+.frame .dhaka-oke-product-designer {
+  height: 20px;
+  letter-spacing: 0;
+  line-height: 116px;
+  min-width: 181px;
+  white-space: nowrap;
+}

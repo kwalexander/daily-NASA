@@ -1,0 +1,79 @@
+/* screen - favorites-full-screen */
+
+.favorites-full-screen {
+  align-items: center;
+  background-color: var(--white);
+  border: 0px none;
+  display: flex;
+  flex-direction: column;
+  height: 1448px;
+  width: 1440px;
+}
+
+.favorites-full-screen .overlap-group {
+  align-items: center;
+  background-color: var(--black);
+  display: flex;
+  gap: 401px;
+  height: 85px;
+  justify-content: flex-end;
+  min-width: 1440px;
+  padding: 12px 27px;
+}
+
+.favorites-full-screen .daily-nasa {
+  letter-spacing: 0;
+  line-height: normal;
+  margin-top: 1.0px;
+  min-height: 42px;
+  min-width: 184px;
+}
+
+.favorites-full-screen .button-primary {
+  align-self: flex-end;
+  height: 60px;
+  width: 200px;
+}
+
+.favorites-full-screen .photo-name-favorited-mmddyyyy {
+  height: 56px;
+  letter-spacing: 0;
+  line-height: normal;
+  margin-left: 27.0px;
+  margin-top: 123px;
+  min-width: 273px;
+  text-align: center;
+}
+
+.favorites-full-screen .button-primary-1 {
+  height: 60px;
+  margin-left: 28.0px;
+  margin-top: 42px;
+  width: 200px;
+}
+
+.favorites-full-screen .overlap-group1 {
+  height: 1000px;
+  margin-top: 42px;
+  position: relative;
+  width: 1000px;
+}
+
+.favorites-full-screen .photo-background {
+  height: 21px;
+  left: 423px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  text-align: center;
+  top: 489px;
+}
+
+.favorites-full-screen .image-2 {
+  height: 1000px;
+  left: 0;
+  object-fit: cover;
+  position: absolute;
+  top: 0;
+  width: 1000px;
+}

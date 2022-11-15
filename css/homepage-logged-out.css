@@ -1,0 +1,90 @@
+/* screen - homepage-logged-out */
+
+.homepage-logged-out {
+  align-items: flex-start;
+  background-color: var(--white);
+  border: 0px none;
+  display: flex;
+  flex-direction: column;
+  height: 1015px;
+  width: 1440px;
+}
+
+.homepage-logged-out .overlap-group1 {
+  align-items: center;
+  background-color: var(--black);
+  display: flex;
+  gap: 401px;
+  height: 85px;
+  justify-content: flex-end;
+  min-width: 1440px;
+  padding: 12px 27px;
+}
+
+.homepage-logged-out .daily-nasa {
+  letter-spacing: 0;
+  line-height: normal;
+  margin-top: 1.0px;
+  min-height: 42px;
+  min-width: 184px;
+}
+
+.homepage-logged-out .button-primary {
+  align-self: flex-end;
+  height: 60px;
+  width: 200px;
+}
+
+.homepage-logged-out .overlap-group {
+  height: 930px;
+  position: relative;
+  width: 1440px;
+}
+
+.homepage-logged-out .photo-background {
+  height: 21px;
+  left: 643px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  text-align: center;
+  top: 812px;
+}
+
+.homepage-logged-out .image-1 {
+  height: 930px;
+  left: 0;
+  object-fit: cover;
+  position: absolute;
+  top: 0;
+  width: 1440px;
+}
+
+.homepage-logged-out .rectangle-5 {
+  background-color: var(--white);
+  border: 1px none;
+  height: 248px;
+  left: 367px;
+  position: absolute;
+  top: 304px;
+  width: 724px;
+}
+
+.homepage-logged-out .button-primary-1 {
+  height: 60px;
+  left: 628px;
+  position: absolute;
+  top: 465px;
+  width: 200px;
+}
+
+.homepage-logged-out .welcome-to-daily-nas {
+  height: 83px;
+  left: 395px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  text-align: center;
+  top: 328px;
+  width: 668px;
+}

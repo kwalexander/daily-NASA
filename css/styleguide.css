@@ -1,0 +1,128 @@
+:root { 
+  --alto: #d9d9d9;
+  --black: #000000;
+  --black-2: #00000080;
+  --concrete: #f2f2f2;
+  --white: #ffffff;
+ 
+  --font-size-l: 20px;
+  --font-size-m: 18px;
+  --font-size-s: 14px;
+  --font-size-xl: 24px;
+  --font-size-xxl: 32px;
+  --font-size-xxxl: 36px;
+  --font-size-xxxxl: 48px;
+ 
+  --font-family-roboto: "Roboto", Helvetica;
+}
+.roboto-normal-black-14px {
+  color: var(--black);
+  font-family: var(--font-family-roboto);
+  font-size: var(--font-size-s);
+  font-style: normal;
+  font-weight: 400;
+}
+
+.roboto-normal-black-18px {
+  color: var(--black);
+  font-family: var(--font-family-roboto);
+  font-size: var(--font-size-m);
+  font-style: normal;
+  font-weight: 400;
+}
+
+.roboto-bold-black-24px {
+  color: var(--black);
+  font-family: var(--font-family-roboto);
+  font-size: var(--font-size-xl);
+  font-style: normal;
+  font-weight: 700;
+}
+
+.roboto-normal-black-24px {
+  color: var(--black);
+  font-family: var(--font-family-roboto);
+  font-size: var(--font-size-xl);
+  font-style: normal;
+  font-weight: 400;
+}
+
+.roboto-normal-white-18px {
+  color: var(--white);
+  font-family: var(--font-family-roboto);
+  font-size: var(--font-size-m);
+  font-style: normal;
+  font-weight: 400;
+}
+
+.roboto-bold-black-14px {
+  color: var(--black);
+  font-family: var(--font-family-roboto);
+  font-size: var(--font-size-s);
+  font-style: normal;
+  font-weight: 700;
+}
+
+.roboto-normal-black-20px {
+  color: var(--black);
+  font-family: var(--font-family-roboto);
+  font-size: var(--font-size-l);
+  font-style: normal;
+  font-weight: 400;
+}
+
+.roboto-medium-white-36px {
+  color: var(--white);
+  font-family: var(--font-family-roboto);
+  font-size: var(--font-size-xxxl);
+  font-style: normal;
+  font-weight: 500;
+}
+
+.roboto-normal-black-32px {
+  color: var(--black);
+  font-family: var(--font-family-roboto);
+  font-size: var(--font-size-xxl);
+  font-style: normal;
+  font-weight: 400;
+}
+
+.roboto-normal-white-14px {
+  color: var(--white);
+  font-family: var(--font-family-roboto);
+  font-size: var(--font-size-s);
+  font-style: normal;
+  font-weight: 400;
+}
+
+.roboto-normal-white-6px {
+  color: var(--white);
+  font-family: var(--font-family-roboto);
+  font-size: 6px;
+  font-style: normal;
+  font-weight: 400;
+}
+
+.roboto-normal-black-14px-2 {
+  color: var(--black-2);
+  font-family: var(--font-family-roboto);
+  font-size: var(--font-size-s);
+  font-style: normal;
+  font-weight: 400;
+}
+
+.roboto-normal-white-48px {
+  color: var(--white);
+  font-family: var(--font-family-roboto);
+  font-size: var(--font-size-xxxxl);
+  font-style: normal;
+  font-weight: 400;
+}
+
+.roboto-normal-black-20px-2 {
+  color: var(--black-2);
+  font-family: var(--font-family-roboto);
+  font-size: var(--font-size-l);
+  font-style: normal;
+  font-weight: 400;
+}

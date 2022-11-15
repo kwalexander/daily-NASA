@@ -1,0 +1,34 @@
+/* screen - hero-image */
+
+.hero-image {
+  align-items: flex-start;
+  border: 0px none;
+  display: flex;
+  height: 63px;
+  min-width: 60px;
+  overflow-x: hidden;
+  padding: 12px 0;
+}
+
+.hero-image .browser {
+  align-items: flex-start;
+  background-color: var(--white);
+  border: 1px solid;
+  border-color: var(--black);
+  border-radius: 4px;
+  display: flex;
+  gap: 2px;
+  height: 38px;
+  margin-left: -2px;
+  margin-top: 1px;
+  min-width: 63px;
+  padding: 2px;
+}
+
+.hero-image .button {
+  border: 1px solid;
+  border-color: var(--black);
+  border-radius: 2px;
+  height: 4px;
+  width: 4px;
+}

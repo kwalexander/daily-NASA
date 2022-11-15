@@ -1,0 +1,66 @@
+/* screen - social-proof */
+
+.social-proof {
+  align-items: flex-start;
+  border: 0px none;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  min-height: 63px;
+  padding: 2.2px 0;
+  width: 60px;
+}
+
+.social-proof .ellipse-container {
+  align-items: flex-start;
+  display: flex;
+  gap: 2px;
+  margin-left: 2.62px;
+  min-width: 8px;
+}
+
+.social-proof .ellipse {
+  background-color: var(--white);
+  border: 0.38px none;
+  border-radius: 0.75px;
+  height: 2px;
+  width: 2px;
+}
+
+.social-proof .overlap-group {
+  height: 23px;
+  position: relative;
+  width: 60px;
+}
+
+.social-proof .surname {
+  height: 9px;
+  left: 6px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  text-align: center;
+  top: 10px;
+  width: 45px;
+}
+
+.social-proof .logos {
+  align-items: flex-start;
+  background-color: #c4c4c4;
+  display: flex;
+  gap: 4px;
+  height: 23px;
+  left: 0;
+  min-width: 60px;
+  padding: 7px 8px;
+  position: absolute;
+  top: 0;
+}
+
+.social-proof .logo-0 {
+  background-color: var(--black);
+  border: 1px none;
+  border-radius: 40px;
+  height: 8px;
+  width: 8px;
+}

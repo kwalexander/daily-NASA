@@ -1,0 +1,163 @@
+/* screen - sign-up-error */
+
+.sign-up-error {
+  align-items: flex-start;
+  background-color: var(--white);
+  border: 0px none;
+  display: flex;
+  flex-direction: column;
+  height: 1015px;
+  width: 1440px;
+}
+
+.sign-up-error .overlap-group1 {
+  align-items: center;
+  background-color: var(--black);
+  display: flex;
+  gap: 401px;
+  height: 85px;
+  justify-content: flex-end;
+  min-width: 1440px;
+  padding: 12px 27px;
+}
+
+.sign-up-error .daily-nasa {
+  letter-spacing: 0;
+  line-height: normal;
+  margin-top: 1.0px;
+  min-height: 42px;
+  min-width: 184px;
+}
+
+.sign-up-error .button-primary {
+  align-self: flex-end;
+  height: 60px;
+  width: 200px;
+}
+
+.sign-up-error .overlap-group {
+  height: 930px;
+  position: relative;
+  width: 1440px;
+}
+
+.sign-up-error .photo-background {
+  height: 21px;
+  left: 643px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  text-align: center;
+  top: 812px;
+}
+
+.sign-up-error .image-1 {
+  height: 930px;
+  left: 0;
+  object-fit: cover;
+  position: absolute;
+  top: 0;
+  width: 1440px;
+}
+
+.sign-up-error .rectangle-5 {
+  background-color: var(--white);
+  border: 1px none;
+  height: 468px;
+  left: 367px;
+  position: absolute;
+  top: 205px;
+  width: 724px;
+}
+
+.sign-up-error .button-primary-1 {
+  height: 60px;
+  left: 643px;
+  position: absolute;
+  top: 570px;
+  width: 200px;
+}
+
+.sign-up-error .email {
+  height: 83px;
+  left: 423px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 327px;
+  width: 188px;
+}
+
+.sign-up-error .sign-up {
+  height: 83px;
+  left: 635px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  text-align: center;
+  top: 244px;
+  width: 188px;
+}
+
+.sign-up-error .password {
+  height: 83px;
+  left: 423px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 410px;
+  width: 188px;
+}
+
+.sign-up-error .rectangle-6 {
+  background-color: var(--alto);
+  border: 1px none;
+  height: 32px;
+  left: 563px;
+  position: absolute;
+  top: 355px;
+  width: 449px;
+}
+
+.sign-up-error .rectangle-7 {
+  background-color: var(--alto);
+  border: 1px none;
+  height: 32px;
+  left: 563px;
+  position: absolute;
+  top: 433px;
+  width: 449px;
+}
+
+.sign-up-error .ellipse-1 {
+  background-color: var(--alto);
+  border: 1px none;
+  border-radius: 22px/23px;
+  height: 46px;
+  left: 1012px;
+  position: absolute;
+  top: 229px;
+  width: 44px;
+}
+
+.sign-up-error .line {
+  height: 25px;
+  left: 1021px;
+  position: absolute;
+  top: 239px;
+  width: 25px;
+}
+
+.sign-up-error .form-cant-be-empty {
+  color: #ea3d32;
+  font-family: var(--font-family-roboto);
+  font-size: var(--font-size-m);
+  font-weight: 400;
+  height: 21px;
+  left: 668px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  text-align: center;
+  top: 507px;
+}

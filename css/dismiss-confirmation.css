@@ -1,0 +1,70 @@
+/* screen - dismiss-confirmation */
+
+.dismiss-confirmation {
+  align-items: center;
+  background-color: var(--white);
+  border: 0px none;
+  display: flex;
+  flex-direction: column;
+  height: 897px;
+  overflow: hidden;
+  width: 1440px;
+}
+
+.dismiss-confirmation .arrow-1 {
+  align-self: flex-start;
+  height: 1px;
+  margin-left: -2171px;
+  margin-top: -1868px;
+  width: 1152px;
+}
+
+.dismiss-confirmation .overlap-group {
+  align-items: flex-end;
+  background-color: var(--black);
+  display: flex;
+  height: 85px;
+  justify-content: flex-end;
+  margin-top: 1867px;
+  min-width: 1440px;
+  padding: 12px 27px;
+}
+
+.dismiss-confirmation .daily-nasa {
+  align-self: center;
+  letter-spacing: 0;
+  line-height: normal;
+  margin-top: 1.0px;
+  min-height: 42px;
+  min-width: 184px;
+}
+
+.dismiss-confirmation .button-primary {
+  height: 60px;
+  margin-left: 176px;
+  width: 200px;
+}
+
+.dismiss-confirmation .button-primary-1 {
+  height: 60px;
+  margin-left: 25px;
+  width: 200px;
+}
+
+.dismiss-confirmation .bummer-sorry-you-di {
+  height: 83px;
+  letter-spacing: 0;
+  line-height: normal;
+  margin-top: 81px;
+  text-align: center;
+  width: 668px;
+}
+
+.dismiss-confirmation .photo-background {
+  height: 21px;
+  letter-spacing: 0;
+  line-height: normal;
+  margin-top: 648px;
+  min-width: 154px;
+  text-align: center;
+}

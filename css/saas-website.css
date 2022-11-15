@@ -1,0 +1,908 @@
+/* screen - saas-website */
+
+.saas-website {
+  align-items: flex-start;
+  background-color: var(--white);
+  border: 0px none;
+  display: flex;
+  flex-direction: column;
+  height: 4972px;
+  overflow: hidden;
+  width: 1440px;
+}
+
+.saas-website .naviation-right {
+  align-items: center;
+  background-color: var(--white);
+  border: 0px none;
+  display: flex;
+  height: 64px;
+  min-width: 1440px;
+  padding: 0 40px;
+}
+
+.saas-website .logo {
+  letter-spacing: 0;
+  line-height: normal;
+  margin-top: 1.0px;
+  min-height: 29px;
+  min-width: 76px;
+}
+
+.saas-website .navbar {
+  align-items: flex-start;
+  display: flex;
+  gap: 32px;
+  margin-left: 816px;
+  min-width: 296px;
+}
+
+.saas-website .navbar-link-link {
+  height: 22px;
+  letter-spacing: 0;
+  line-height: normal;
+  min-width: 48px;
+}
+
+.saas-website .navbar-link-link-1 {
+  height: 22px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.saas-website .button-secondary {
+  align-items: flex-start;
+  border: 1px solid;
+  border-color: var(--black);
+  border-radius: 5px;
+  display: flex;
+  height: 40px;
+  margin-left: 32px;
+  min-width: 140px;
+  padding: 7px 16px;
+}
+
+.saas-website .text-1 {
+  height: 25px;
+  letter-spacing: 0;
+  line-height: 115px;
+  text-align: center;
+  white-space: nowrap;
+  width: 107px;
+}
+
+.saas-website .overlap-group3 {
+  height: 700px;
+  position: relative;
+  width: 1440px;
+}
+
+.saas-website .hero-side-image-right {
+  align-items: center;
+  background-color: var(--white);
+  border: 0px none;
+  display: flex;
+  gap: 74px;
+  height: 700px;
+  left: 0;
+  min-width: 1440px;
+  padding: 0 135px;
+  position: absolute;
+  top: 0;
+}
+
+.saas-website .content-1 {
+  align-items: flex-start;
+  display: flex;
+  flex-direction: column;
+  margin-top: 1.0px;
+  min-height: 357px;
+  width: 426px;
+}
+
+.saas-website .title-1 {
+  color: var(--black);
+  font-family: var(--font-family-roboto);
+  font-size: 56px;
+  font-weight: 500;
+  letter-spacing: 0;
+  line-height: normal;
+  width: 399px;
+}
+
+.saas-website .subtitle {
+  letter-spacing: 0;
+  line-height: 120px;
+  margin-bottom: -35px;
+  margin-top: 56px;
+  white-space: nowrap;
+}
+
+.saas-website .button-primary {
+  align-items: center;
+  background-color: var(--black);
+  border: 0px none;
+  border-radius: 5px;
+  display: flex;
+  height: 60px;
+  justify-content: flex-end;
+  margin-top: 24px;
+  min-width: 200px;
+  padding: 0 24px;
+}
+
+.saas-website .text {
+  height: 22px;
+  letter-spacing: 0;
+  line-height: normal;
+  text-align: center;
+  width: 151px;
+}
+
+.saas-website .browser {
+  align-items: flex-start;
+  background-color: var(--white);
+  border: 1px solid;
+  border-color: var(--black);
+  border-radius: 4px;
+  display: flex;
+  gap: 12px;
+  height: 480px;
+  min-width: 670px;
+  padding: 15px;
+}
+
+.saas-website .button {
+  border: 1px solid;
+  border-color: var(--black);
+  border-radius: 6px;
+  height: 12px;
+  width: 12px;
+}
+
+.saas-website .group-2 {
+  align-items: flex-start;
+  display: flex;
+  height: 247px;
+  left: 765px;
+  min-width: 400px;
+  position: absolute;
+  top: 224px;
+}
+
+.saas-website .flex-row {
+  align-items: center;
+  display: flex;
+  gap: 60px;
+  height: 239px;
+  margin-top: 1px;
+  min-width: 160px;
+}
+
+.saas-website .ellipse {
+  background-color: var(--black);
+  border: 2px solid;
+  border-radius: 10px;
+  height: 20px;
+  margin-top: 99.0px;
+  width: 20px;
+}
+
+.saas-website .flex-col {
+  align-items: flex-start;
+  display: flex;
+  flex-direction: column;
+  gap: 79px;
+  min-height: 239px;
+  width: 80px;
+}
+
+.saas-website .ellipse-1 {
+  border: 2px solid;
+  border-color: var(--black);
+  border-radius: 40px;
+  height: 80px;
+  width: 80px;
+}
+
+.saas-website .vector {
+  height: 80px;
+  width: 80px;
+}
+
+.saas-website .flex-col-1 {
+  align-items: flex-start;
+  display: flex;
+  flex-direction: column;
+  min-height: 247px;
+  width: 160px;
+}
+
+.saas-website .rectangle {
+  align-self: flex-end;
+  background-color: var(--black);
+  border: 2px solid;
+  height: 80px;
+  width: 80px;
+}
+
+.saas-website .vector-container {
+  align-items: flex-start;
+  display: flex;
+  min-width: 160px;
+}
+
+.saas-website .ellipse-2 {
+  border: 2px solid;
+  border-color: var(--black);
+  border-radius: 40px;
+  height: 80px;
+  margin-left: 12.5px;
+  margin-top: 7px;
+  width: 80px;
+}
+
+.saas-website .ellipse-3 {
+  align-self: center;
+  background-color: var(--black);
+  border: 2px solid;
+  border-radius: 10px;
+  height: 20px;
+  margin-bottom: 105.0px;
+  margin-left: 60px;
+  width: 20px;
+}
+
+.saas-website .social-proof {
+  align-items: flex-start;
+  border: 0px none;
+  display: flex;
+  height: 268px;
+  min-width: 1440px;
+}
+
+.saas-website .overlap-group-3 {
+  align-items: center;
+  background-color: var(--concrete);
+  display: flex;
+  flex-direction: column;
+  gap: -54px;
+  min-height: 266px;
+  padding: 48px 0;
+  width: 1440px;
+}
+
+.saas-website .subtitle-1 {
+  letter-spacing: 0;
+  line-height: 120px;
+  margin-left: 1.0px;
+  min-height: 34px;
+  min-width: 417px;
+  text-align: center;
+  white-space: nowrap;
+}
+
+.saas-website .logos {
+  align-items: flex-start;
+  border-radius: 40px;
+  display: flex;
+  gap: 40px;
+  min-width: 680px;
+}
+
+.saas-website .logo-0 {
+  background-color: var(--black);
+  border: 1px none;
+  border-radius: 40px;
+  height: 80px;
+  width: 80px;
+}
+
+.saas-website .overlap-group {
+  height: 600px;
+  position: relative;
+  width: 1440px;
+}
+
+.saas-website .feature-quote-left {
+  align-items: flex-start;
+  background-color: #333333;
+  border: 0px none;
+  display: flex;
+  gap: 56px;
+  height: 600px;
+  justify-content: flex-end;
+  left: 0;
+  min-width: 1440px;
+  padding: 157px 180px;
+  position: absolute;
+  top: 0;
+}
+
+.saas-website .content {
+  align-items: flex-start;
+  align-self: center;
+  display: flex;
+  flex-direction: column;
+  min-height: 258px;
+  width: 478px;
+}
+
+.saas-website .your-best-value-proposition-1 {
+  color: var(--white);
+  font-family: var(--font-family-roboto);
+  font-size: var(--font-size-xxl);
+  font-weight: 400;
+  letter-spacing: 0;
+  line-height: normal;
+  width: 422px;
+}
+
+.saas-website .lorem-ipsum-dolor-si {
+  letter-spacing: 0;
+  line-height: 120px;
+  margin-bottom: -44px;
+  margin-top: 24px;
+  white-space: nowrap;
+}
+
+.saas-website .customer-quote {
+  letter-spacing: 0;
+  line-height: 120px;
+  margin-bottom: -80px;
+  margin-top: 48px;
+  white-space: nowrap;
+}
+
+.saas-website .flex-row-1 {
+  align-items: center;
+  display: flex;
+  gap: 8px;
+  margin-top: 8px;
+  min-width: 213px;
+}
+
+.saas-website .ellipse-5 {
+  background-color: var(--white);
+  border: 1px none;
+  border-radius: 12px;
+  height: 24px;
+  width: 24px;
+}
+
+.saas-website .dhaka-oke-product-designer {
+  height: 20px;
+  letter-spacing: 0;
+  line-height: 116px;
+  min-width: 181px;
+  white-space: nowrap;
+}
+
+.saas-website .overlap-group-1 {
+  height: 286px;
+  position: relative;
+  width: 491px;
+}
+
+.saas-website .rectangle-2 {
+  background-color: var(--white);
+  border: 1px none;
+  height: 233px;
+  left: 91px;
+  position: absolute;
+  top: 0;
+  width: 400px;
+}
+
+.saas-website .rectangle-1 {
+  background-color: var(--black);
+  border: 1px none;
+  height: 233px;
+  left: 0;
+  position: absolute;
+  top: 53px;
+  width: 400px;
+}
+
+.saas-website .vector-1 {
+  height: 80px;
+  left: 860px;
+  position: absolute;
+  top: 325px;
+  width: 80px;
+}
+
+.saas-website .ellipse-6 {
+  background-color: var(--white);
+  border: 2px solid;
+  border-radius: 10px;
+  height: 20px;
+  left: 1080px;
+  position: absolute;
+  top: 306px;
+  width: 20px;
+}
+
+.saas-website .rectangle-3 {
+  background-color: var(--white);
+  border: 2px solid;
+  height: 80px;
+  left: 940px;
+  position: absolute;
+  top: 245px;
+  width: 80px;
+}
+
+.saas-website .feature-quote-right {
+  align-items: flex-start;
+  background-color: var(--concrete);
+  border: 0px none;
+  display: flex;
+  gap: 72px;
+  height: 600px;
+  left: 0;
+  min-width: 1440px;
+  padding: 157px 174px;
+  position: absolute;
+  top: 0;
+}
+
+.saas-website .rectangle-4 {
+  border: 1px none;
+  height: 233px;
+  left: 91px;
+  position: absolute;
+  top: 0;
+  width: 400px;
+}
+
+.saas-website .rectangle-5 {
+  border: 1px none;
+  height: 233px;
+  left: 0;
+  position: absolute;
+  top: 53px;
+  width: 400px;
+}
+
+.saas-website .your-best-value-proposition {
+  letter-spacing: 0;
+  line-height: normal;
+  width: 422px;
+}
+
+.saas-website .ellipse-4 {
+  background-color: var(--black);
+  border: 1px none;
+  border-radius: 12px;
+  height: 24px;
+  width: 24px;
+}
+
+.saas-website .group-21 {
+  align-items: flex-start;
+  display: flex;
+  height: 247px;
+  left: 205px;
+  min-width: 400px;
+  position: absolute;
+  top: 181px;
+}
+
+.saas-website .feature-quote-left-1 {
+  align-items: flex-start;
+  background-color: var(--white);
+  border: 0px none;
+  display: flex;
+  gap: 56px;
+  height: 600px;
+  justify-content: flex-end;
+  margin-left: 1px;
+  min-width: 1440px;
+  padding: 157px 180px;
+}
+
+.saas-website .rectangle-6 {
+  background-color: var(--concrete);
+  border: 1px none;
+  height: 233px;
+  left: 91px;
+  position: absolute;
+  top: 0;
+  width: 400px;
+}
+
+.saas-website .overlap-group4 {
+  height: 860px;
+  margin-left: 1px;
+  position: relative;
+  width: 1440px;
+}
+
+.saas-website .posts-blog-top {
+  align-items: center;
+  background-color: var(--white);
+  border: 0px none;
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+  left: 0;
+  min-height: 860px;
+  padding: 80px 0;
+  position: absolute;
+  top: 0;
+  width: 1440px;
+}
+
+.saas-website .overlap-group1 {
+  align-items: center;
+  background-color: var(--black);
+  display: flex;
+  gap: 78px;
+  min-width: 1170px;
+}
+
+.saas-website .media {
+  background-color: #222222;
+  border: 1px none;
+  height: 370px;
+  width: 400px;
+}
+
+.saas-website .flex-col-2 {
+  align-items: flex-start;
+  display: flex;
+  flex-direction: column;
+  margin-top: 5.0px;
+  min-height: 267px;
+  width: 492px;
+}
+
+.saas-website .author {
+  letter-spacing: 0;
+  line-height: 120px;
+  margin-bottom: -100px;
+  min-height: 20px;
+  white-space: nowrap;
+}
+
+.saas-website .title-2 {
+  letter-spacing: 0;
+  line-height: normal;
+  margin-top: 16px;
+  min-height: 125px;
+  width: 492px;
+}
+
+.saas-website .link-3 {
+  letter-spacing: 0;
+  line-height: 120px;
+  margin-bottom: -94px;
+  margin-top: 80px;
+  min-height: 26px;
+  white-space: nowrap;
+}
+
+.saas-website .overlap-group-container {
+  align-items: flex-start;
+  display: flex;
+  gap: 30px;
+  height: 290px;
+  min-width: 1170px;
+}
+
+.saas-website .overlap-group-2 {
+  align-items: center;
+  background-color: var(--concrete);
+  display: flex;
+  flex-direction: column;
+  min-height: 290px;
+  padding: 48px 0;
+  width: 570px;
+}
+
+.saas-website .title {
+  letter-spacing: 0;
+  line-height: 120px;
+  margin-bottom: -52px;
+  white-space: nowrap;
+  width: 474px;
+}
+
+.saas-website .summary {
+  letter-spacing: 0;
+  line-height: 120px;
+  margin-bottom: -48px;
+  margin-top: 16px;
+  min-height: 72px;
+  white-space: nowrap;
+  width: 474px;
+}
+
+.saas-website .link {
+  align-self: flex-start;
+  letter-spacing: 0;
+  line-height: 120px;
+  margin-bottom: -100px;
+  margin-left: 48px;
+  margin-top: 16px;
+  min-height: 20px;
+  white-space: nowrap;
+}
+
+.saas-website .group-22 {
+  align-items: center;
+  display: flex;
+  gap: 60px;
+  height: 247px;
+  left: 227px;
+  min-width: 240px;
+  position: absolute;
+  top: 134px;
+}
+
+.saas-website .rectangle-7 {
+  align-self: flex-end;
+  background-color: var(--white);
+  border: 2px solid;
+  height: 80px;
+  width: 80px;
+}
+
+.saas-website .ellipse-7 {
+  border: 2px solid;
+  border-color: var(--white);
+  border-radius: 40px;
+  height: 80px;
+  margin-left: 12.5px;
+  margin-top: 7px;
+  width: 80px;
+}
+
+.saas-website .ellipse-8 {
+  background-color: var(--white);
+  border: 2px solid;
+  border-radius: 10px;
+  height: 20px;
+  margin-bottom: 105.0px;
+  width: 20px;
+}
+
+.saas-website .testimonial {
+  align-items: center;
+  background-color: var(--white);
+  border: 0px none;
+  display: flex;
+  flex-direction: column;
+  min-height: 400px;
+  padding: 132px 229px;
+  width: 1440px;
+}
+
+.saas-website .quote-text {
+  align-self: flex-end;
+  letter-spacing: 0;
+  line-height: 116px;
+  margin-bottom: -83px;
+  min-height: 33px;
+  min-width: 981px;
+  text-align: center;
+  white-space: nowrap;
+}
+
+.saas-website .media-person {
+  background-color: var(--black);
+  border: 1px none;
+  border-radius: 20px;
+  height: 40px;
+  margin-top: 19px;
+  width: 40px;
+}
+
+.saas-website .person-name {
+  letter-spacing: 0;
+  line-height: 116px;
+  margin-bottom: -96px;
+  margin-left: 1.0px;
+  margin-top: 24px;
+  min-height: 20px;
+  min-width: 237px;
+  text-align: center;
+  white-space: nowrap;
+}
+
+.saas-website .cta-center {
+  align-items: center;
+  background-color: var(--concrete);
+  border: 0px none;
+  display: flex;
+  flex-direction: column;
+  margin-left: 1px;
+  min-height: 500px;
+  padding: 128px 0;
+  width: 1440px;
+}
+
+.saas-website .title-3 {
+  letter-spacing: 0;
+  line-height: 120px;
+  margin-bottom: -86px;
+  margin-left: 1.0px;
+  margin-top: 1px;
+  min-height: 34px;
+  min-width: 231px;
+  text-align: center;
+  white-space: nowrap;
+}
+
+.saas-website .subtitle-2 {
+  letter-spacing: 0;
+  line-height: 120px;
+  margin-bottom: -35px;
+  margin-top: 40px;
+  text-align: center;
+  white-space: nowrap;
+  width: 422px;
+}
+
+.saas-website .footer-blog-post {
+  align-items: center;
+  background-color: var(--white);
+  border: 0px none;
+  display: flex;
+  gap: 53px;
+  height: 380px;
+  margin-left: 1px;
+  min-width: 1440px;
+  padding: 0 135px;
+}
+
+.saas-website .flex-row-2 {
+  align-items: flex-start;
+  display: flex;
+  min-width: 586px;
+}
+
+.saas-website .logo-1 {
+  letter-spacing: 0;
+  line-height: normal;
+  margin-top: 29px;
+  min-height: 29px;
+  min-width: 76px;
+  text-align: center;
+}
+
+.saas-website .blog-post {
+  align-items: flex-start;
+  display: flex;
+  flex-direction: column;
+  margin-left: 84px;
+  margin-top: 38px;
+  min-height: 158px;
+  width: 376px;
+}
+
+.saas-website .subtitle-3 {
+  letter-spacing: 0;
+  line-height: 120px;
+  margin-bottom: -100px;
+  min-height: 20px;
+  white-space: nowrap;
+}
+
+.saas-website .title-4 {
+  letter-spacing: 0;
+  line-height: 120px;
+  margin-bottom: -86px;
+  margin-top: 15px;
+  min-height: 34px;
+  white-space: nowrap;
+}
+
+.saas-website .summary-1 {
+  letter-spacing: 0;
+  line-height: 120px;
+  margin-bottom: -41px;
+  margin-top: 10px;
+  white-space: nowrap;
+}
+
+.saas-website .divider {
+  height: 320px;
+  margin-left: 49px;
+  width: 1px;
+}
+
+.saas-website .flex-col-3 {
+  align-items: flex-start;
+  display: flex;
+  flex-direction: column;
+  gap: 65px;
+  margin-top: 15.0px;
+  min-height: 259px;
+  width: 245px;
+}
+
+.saas-website .links-right {
+  align-items: flex-start;
+  display: flex;
+  gap: 111px;
+  height: 174px;
+  min-width: 245px;
+}
+
+.saas-website .link-container {
+  align-items: flex-start;
+  display: flex;
+  flex-direction: column;
+  min-height: 174px;
+  width: 50px;
+}
+
+.saas-website .link-4 {
+  letter-spacing: 0;
+  line-height: 120px;
+  margin-bottom: -100px;
+  min-height: 20px;
+  white-space: nowrap;
+}
+
+.saas-website .link-1 {
+  letter-spacing: 0;
+  line-height: 120px;
+  margin-bottom: -100px;
+  margin-top: 22px;
+  min-height: 20px;
+  white-space: nowrap;
+}
+
+.saas-website .link-2 {
+  letter-spacing: 0;
+  line-height: 120px;
+  margin-bottom: -100px;
+  margin-top: 8px;
+  min-height: 20px;
+  white-space: nowrap;
+}
+
+.saas-website .link-container-1 {
+  align-items: flex-start;
+  display: flex;
+  flex-direction: column;
+  min-height: 174px;
+  width: 60px;
+}
+
+.saas-website .link-5 {
+  letter-spacing: 0;
+  line-height: 120px;
+  margin-bottom: -100px;
+  min-height: 20px;
+  white-space: nowrap;
+}
+
+.saas-website .flex-row-3 {
+  align-items: flex-start;
+  display: flex;
+  gap: 16px;
+  height: 20px;
+  min-width: 215px;
+}
+
+.saas-website .copyright {
+  letter-spacing: 0;
+  line-height: 120px;
+  min-height: 20px;
+  min-width: 96px;
+  text-align: center;
+  white-space: nowrap;
+}
+
+.saas-website .link-6 {
+  letter-spacing: 0;
+  line-height: 120px;
+  min-height: 20px;
+  min-width: 103px;
+  text-align: center;
+  white-space: nowrap;
+}

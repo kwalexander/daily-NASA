@@ -1,0 +1,31 @@
+/* screen - straight */
+
+.straight {
+  align-items: flex-start;
+  border: 0px none;
+  display: flex;
+  height: 40px;
+  min-width: 40px;
+}
+
+.straight .overlap-group {
+  height: 60px;
+  position: relative;
+  width: 40px;
+}
+
+.straight .vector {
+  height: 40px;
+  left: 20px;
+  position: absolute;
+  top: 0;
+  width: 1px;
+}
+
+.straight .point {
+  height: 40px;
+  left: 0;
+  position: absolute;
+  top: 20px;
+  width: 40px;
+}

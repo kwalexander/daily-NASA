@@ -1,0 +1,149 @@
+/* screen - sign-up-modal */
+
+.sign-up-modal {
+  align-items: flex-start;
+  background-color: var(--white);
+  border: 0px none;
+  display: flex;
+  flex-direction: column;
+  height: 1015px;
+  width: 1440px;
+}
+
+.sign-up-modal .overlap-group {
+  align-items: center;
+  background-color: var(--black);
+  display: flex;
+  gap: 401px;
+  height: 85px;
+  justify-content: flex-end;
+  min-width: 1440px;
+  padding: 12px 27px;
+}
+
+.sign-up-modal .daily-nasa {
+  letter-spacing: 0;
+  line-height: normal;
+  margin-top: 1.0px;
+  min-height: 42px;
+  min-width: 184px;
+}
+
+.sign-up-modal .button-primary {
+  align-self: flex-end;
+  height: 60px;
+  width: 200px;
+}
+
+.sign-up-modal .overlap-group1 {
+  height: 930px;
+  position: relative;
+  width: 1440px;
+}
+
+.sign-up-modal .photo-background {
+  height: 21px;
+  left: 643px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  text-align: center;
+  top: 812px;
+}
+
+.sign-up-modal .image-1 {
+  height: 930px;
+  left: 0;
+  object-fit: cover;
+  position: absolute;
+  top: 0;
+  width: 1440px;
+}
+
+.sign-up-modal .rectangle-5 {
+  background-color: var(--white);
+  border: 1px none;
+  height: 468px;
+  left: 367px;
+  position: absolute;
+  top: 205px;
+  width: 724px;
+}
+
+.sign-up-modal .button-primary-1 {
+  height: 60px;
+  left: 643px;
+  position: absolute;
+  top: 570px;
+  width: 200px;
+}
+
+.sign-up-modal .email {
+  height: 83px;
+  left: 423px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 327px;
+  width: 188px;
+}
+
+.sign-up-modal .sign-up {
+  height: 83px;
+  left: 635px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  text-align: center;
+  top: 244px;
+  width: 188px;
+}
+
+.sign-up-modal .password {
+  height: 83px;
+  left: 423px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 410px;
+  width: 188px;
+}
+
+.sign-up-modal .rectangle-6 {
+  background-color: var(--alto);
+  border: 1px none;
+  height: 32px;
+  left: 563px;
+  position: absolute;
+  top: 355px;
+  width: 449px;
+}
+
+.sign-up-modal .rectangle-7 {
+  background-color: var(--alto);
+  border: 1px none;
+  height: 32px;
+  left: 563px;
+  position: absolute;
+  top: 433px;
+  width: 449px;
+}
+
+.sign-up-modal .ellipse-1 {
+  background-color: var(--alto);
+  border: 1px none;
+  border-radius: 22px/23px;
+  height: 46px;
+  left: 1012px;
+  position: absolute;
+  top: 229px;
+  width: 44px;
+}
+
+.sign-up-modal .line {
+  height: 25px;
+  left: 1021px;
+  position: absolute;
+  top: 239px;
+  width: 25px;
+}

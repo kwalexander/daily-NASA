@@ -1,0 +1,62 @@
+/* screen - page */
+
+.page {
+  align-items: flex-start;
+  border: 0px none;
+  display: flex;
+  flex-direction: column;
+  min-height: 63px;
+  width: 60px;
+}
+
+.page .ellipse-container {
+  align-items: center;
+  background-color: var(--black);
+  display: flex;
+  gap: 2px;
+  height: 6px;
+  min-width: 60px;
+  padding: 0 2.6px;
+}
+
+.page .ellipse {
+  background-color: var(--white);
+  border: 0.38px none;
+  border-radius: 0.75px;
+  height: 2px;
+  width: 2px;
+}
+
+.page .overlap-group {
+  background-color: var(--black);
+  height: 57px;
+  position: relative;
+  width: 60px;
+}
+
+.page .button-secondary {
+  border: 1px solid;
+  border-color: var(--white);
+  border-radius: 5px;
+  height: 20px;
+  left: 8px;
+  position: absolute;
+  top: 16px;
+  width: 44px;
+}
+
+.page .see-more {
+  color: var(--white);
+  font-family: var(--font-family-roboto);
+  font-size: 7px;
+  font-weight: 400;
+  height: 8px;
+  left: 15px;
+  letter-spacing: 0;
+  line-height: 115px;
+  position: absolute;
+  text-align: center;
+  top: 22px;
+  white-space: nowrap;
+  width: 32px;
+}

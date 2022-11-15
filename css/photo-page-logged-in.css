@@ -1,0 +1,81 @@
+/* screen - photo-page-logged-in */
+
+.photo-page-logged-in {
+  align-items: center;
+  background-color: var(--white);
+  border: 0px none;
+  display: flex;
+  flex-direction: column;
+  height: 1015px;
+  width: 1440px;
+}
+
+.photo-page-logged-in .overlap-group {
+  align-items: flex-end;
+  background-color: var(--black);
+  display: flex;
+  height: 85px;
+  justify-content: flex-end;
+  min-width: 1440px;
+  padding: 12px 27px;
+}
+
+.photo-page-logged-in .daily-nasa {
+  align-self: center;
+  letter-spacing: 0;
+  line-height: normal;
+  margin-top: 1.0px;
+  min-height: 42px;
+  min-width: 184px;
+}
+
+.photo-page-logged-in .button-primary-1 {
+  height: 60px;
+  margin-left: 176px;
+  width: 200px;
+}
+
+.photo-page-logged-in .button-primary-2 {
+  height: 60px;
+  margin-left: 25px;
+  width: 200px;
+}
+
+.photo-page-logged-in .heres-your-photo-of {
+  height: 83px;
+  letter-spacing: 0;
+  line-height: normal;
+  margin-top: 81px;
+  text-align: center;
+  width: 668px;
+}
+
+.photo-page-logged-in .button-primary-container {
+  align-items: flex-start;
+  display: flex;
+  gap: 35px;
+  margin-right: 1.0px;
+  margin-top: 48px;
+  min-width: 435px;
+}
+
+.photo-page-logged-in .button-primary {
+  height: 60px;
+  width: 200px;
+}
+
+.photo-page-logged-in .image-2 {
+  height: 465px;
+  margin-top: 48px;
+  object-fit: cover;
+  width: 718px;
+}
+
+.photo-page-logged-in .photo-background {
+  height: 21px;
+  letter-spacing: 0;
+  line-height: normal;
+  margin-top: 27px;
+  min-width: 154px;
+  text-align: center;
+}

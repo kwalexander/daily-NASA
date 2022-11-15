@@ -1,0 +1,48 @@
+/* screen - tall-posts */
+
+.tall-posts {
+  align-items: flex-start;
+  border: 0px none;
+  display: flex;
+  height: 63px;
+  min-width: 60px;
+  padding: 11px 6.4px;
+}
+
+.tall-posts .overlap-group {
+  height: 40px;
+  margin-top: 1px;
+  position: relative;
+  width: 45px;
+}
+
+.tall-posts .surname {
+  height: 9px;
+  left: 0;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  text-align: center;
+  top: 18px;
+  width: 45px;
+}
+
+.tall-posts .media {
+  align-items: flex-start;
+  background-color: var(--black);
+  display: flex;
+  height: 40px;
+  left: 4px;
+  min-width: 40px;
+  padding: 13.5px;
+  position: absolute;
+  top: 0;
+}
+
+.tall-posts .rectangle-3 {
+  background-color: var(--white);
+  border: 1px none;
+  border-radius: 8px;
+  height: 12px;
+  width: 12px;
+}

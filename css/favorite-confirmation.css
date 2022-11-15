@@ -1,0 +1,77 @@
+/* screen - favorite-confirmation */
+
+.favorite-confirmation {
+  align-items: center;
+  background-color: var(--white);
+  border: 0px none;
+  display: flex;
+  flex-direction: column;
+  height: 1015px;
+  overflow: hidden;
+  width: 1440px;
+}
+
+.favorite-confirmation .arrow-1 {
+  align-self: flex-start;
+  height: 1px;
+  margin-left: -2171px;
+  margin-top: -1868px;
+  width: 1152px;
+}
+
+.favorite-confirmation .overlap-group {
+  align-items: flex-end;
+  background-color: var(--black);
+  display: flex;
+  height: 85px;
+  justify-content: flex-end;
+  margin-top: 1867px;
+  min-width: 1440px;
+  padding: 12px 27px;
+}
+
+.favorite-confirmation .daily-nasa {
+  align-self: center;
+  letter-spacing: 0;
+  line-height: normal;
+  margin-top: 1.0px;
+  min-height: 42px;
+  min-width: 184px;
+}
+
+.favorite-confirmation .button-primary {
+  height: 60px;
+  margin-left: 176px;
+  width: 200px;
+}
+
+.favorite-confirmation .button-primary-1 {
+  height: 60px;
+  margin-left: 25px;
+  width: 200px;
+}
+
+.favorite-confirmation .nice-your-photo-was-favorited {
+  height: 83px;
+  letter-spacing: 0;
+  line-height: normal;
+  margin-top: 81px;
+  text-align: center;
+  width: 668px;
+}
+
+.favorite-confirmation .button-primary-2 {
+  height: 60px;
+  margin-right: 16.0px;
+  margin-top: 81px;
+  width: 200px;
+}
+
+.favorite-confirmation .photo-background {
+  height: 21px;
+  letter-spacing: 0;
+  line-height: normal;
+  margin-top: 507px;
+  min-width: 154px;
+  text-align: center;
+}
