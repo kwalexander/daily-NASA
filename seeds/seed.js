@@ -15,7 +15,7 @@ const seedDatabase = async () => {
         returning: true,
     });
 
-    const favorite = await Favorite.bulkCreate(favoriteSeedData, {
+    const Favorite = await Favorite.bulkCreate(favoriteSeedData, {
         // used for hashing for each favorite
         individualHooks: true,
         returning: true,
@@ -40,3 +40,4 @@ const seedDatabase = async () => {
 };
 
 seedDatabase();
+
