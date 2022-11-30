@@ -1,13 +1,16 @@
+const path = require('path');
 const express = require('express');
+const session = require('express-session');
+const exphbs = require("express-handlebars");
+const SequelizeStore = require('connect-session-sequelize')(session.Store);
+// import sessions library
 const routes = require('./controllers/index.js');
 const sequelize = require('./config/connection');
 
-// import sessions library
-const session = require('express-session');
-const app = express();
-const SequelizeStore = require('connect-session-sequelize')(session.Store);
 
-const path = require('path');
+const app = express();
+
+
 //middleware for front end
 app.use(express.static(path.join(__dirname, 'public')));
 
@@ -34,13 +37,17 @@ app.use(session(sess));
 //turn on routes last
 app.use(routes);
 
-const exhbs = require('express-handlebars');
-const hbs = exhbs.create({});
+const hbs = exphbs.create({ helpers });
 
-app.engine('handlebars', hbs.engine);
-app.set('view engine', 'handlebars');
+app.engine("handlebars", hbs.engine);
+app.set("view engine", "handlebars");
 
-// turn on connection to db and server
+app.use(express.json());
+app.use(express.urlencoded({ extended: false }));
+app.use(express.static(path.join(__dirname, "public")));
+
+app.use(routes);
+
 sequelize.sync({ force: false }).then(() => {
-    app.listen(PORT, () => console.log('Now listening'));
+  app.listen(PORT, () => console.log("Now listening"));
 });
